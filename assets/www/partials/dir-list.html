@@ -1,0 +1,5 @@
+<ul class="categories nav nav-tabs nav-stacked">
+  <li ng-repeat="d in dirs | filter:query | orderBy:orderProp">
+    <a href="#">{{d.name}}</a>
+  </li>
+</ul>

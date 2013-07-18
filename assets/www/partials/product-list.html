@@ -1,0 +1,15 @@
+<ul class="thumbnails product-thumbs">
+  <li ng-repeat="product in products">
+    <div class="thumbnail">
+      <div>
+        <input type="checkbox" ng-model="product.selected" class="chk" />
+      </div>
+      <img ng-src="img/category.{{catId}}/{{product.image}}">
+      <div>Code: {{product.code}}</div>
+      <div>Name: {{product.name}}</div>
+      <div>Price: {{product.price}}</div>
+    </div>
+  </li>
+</ul>
+
+<button ng-click="exportFile()" ng-disabled="disable()" class="btn clearfix" type="button">Export</button>

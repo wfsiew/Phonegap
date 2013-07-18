@@ -1,0 +1,5 @@
+[
+  { "id": 1, "code": "x001", "name": "Xperia SL", "price": 1500, "image": "x001.jpg" },
+  { "id": 2, "code": "x002", "name": "Xperia Miro", "price": 1100, "image": "x002.jpg" },
+  { "id": 3, "code": "x003", "name": "Xperia T", "price": 1700, "image": "x003.jpg" }
+]

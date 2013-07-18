@@ -1,0 +1,4 @@
+[
+  { "id": 1, "code": "x001", "name": "Avril Lavigne", "price": 38, "image": "x001.jpg" },
+  { "id": 2, "code": "x002", "name": "Madonna", "price": 44, "image": "x002.jpg" }
+]
